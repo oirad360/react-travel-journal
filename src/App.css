@@ -1,0 +1,60 @@
+nav{
+  background-color: rgb(255, 71, 71);
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  border-top-left-radius: 17px;
+  border-top-right-radius: 17px;
+  border: 5px solid white;
+}
+
+.nav-icon{
+  vertical-align: -9px;
+  margin-right: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px 50px;
+  overflow-y: auto;
+  max-height: calc(100vh - 111px);
+}
+
+.card{
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+  flex-shrink: 0;
+}
+
+.card-img{
+  max-width: 300px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.google-maps-logo{
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.nation{
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.google-maps-link{
+  color: gray;
+}
+
+.card-title{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.period{
+  font-weight: 500;
+}
